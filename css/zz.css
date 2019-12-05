@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #100e17;
+}
+
+
+.name{
+    color: #ddd;
+    margin-top: 50px;
+    
+}
+.name .im{
+    background-color: #0bceaf;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 13px 15px 15px 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 10px;
+
+    
+}
+.name h1{
+    font-style: italic;
+      font-weight: bold;
+      margin-bottom: 0
+}
+.name p{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.name .fast{
+   margin-top: 10px;
+   font-weight: bold;
+   
+}
+.name .fast .fst{
+   padding-left: 8px;
+   
+}
+
+.poto img{
+   width: 240px;
+   height: 240px;
+   border: 10px solid #f1c579;
+   margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 14px #000000;
+
+    
+}
+
+
+
+.my img{
+   margin-top: 100px;
+   max-width: 100%;
+  height: auto;
+  
+}
+
+.About{
+   margin-top: 100px;
+   color: #fff;
+}
+.About p{
+   font-size: 15px;
+       color: #ec9455;
+         margin-top: 15px;
+   }
+   .About h2{
+      color: #dab166
+   }
+.button1 {
+  background : none; 
+  color: #c1923c; 
+  border: 1px solid #c1923c;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+.button1:hover {
+  background-color:  #c1923c;
+  color: black;
+}
+
+.button2{
+    background-color:  #c1923c;
+  color: black;
+   border: 1px solid #c1923c;
+   font-weight: bold;
+   font-size: 20PX;
+   margin-top: 50px;
+   padding: 16px 20px;
+   border-radius: 20px 13px 13px 0px;
+}
+.skills1{
+   color: #FFF;
+    margin-top: 70PX;
+   
+}
+.skills1 h2{
+ text-align: center;
+}
+.skills1 hr{
+ background-color: #969594;
+width: 110px;
+margin-top: 3px;
+height: 1px;
+margin-bottom: 20px;
+}
+.skills{
+   margin-top:10PX;
+}
+.skills .fa-star {
+   color: #c1923c;
+   margin-left: 2px;
+}
+.ski {
+ margin-top: 70PX;
+ 
+}
+.ski hr{
+ background-color: #969594;
+width: 110px;
+margin-top: 3px;
+height: 1px;
+margin-bottom: 20px;
+}
+.ski h2{
+ text-align: center;
+ 
+ color: #fff;
+}
+
+                                /*----------------------------*/
+ .works {
+  margin-top:70px;
+  
+  }
+  .works h2{
+   color:#fff;
+   text-align: center;
+   margin-top: 100px;
+   
+  }
+.works hr{
+background-color: #969594;
+width: 110px;
+margin-top: 3px;
+height: 1px;
+margin-bottom: 30px;
+}
+.pervious {
+ float: left;
+margin-right: 30px;
+margin-bottom: 20px;
+
+  
+
+}
+
+.pervious .card{
+ border: 2px;
+ border: 3px solid #1d2125;
+ background-color: #100e17;
+ box-shadow: 0 0 20px 13px #00000096;
+ color:#3a3939;
+}
+.pervious .card h5{
+ color:#848181
+}
+                                  
+                                  /*----------------------------*/
+                                  /*----- this Education-----*/
+ .education{
+  margin-top: 70px;
+  
+  }
+.education h2{
+ color: #fff;
+ text-align: center;
+ 
+}
+.education hr{
+ background-color: #969594;
+width: 70px;
+margin-top: 3px;
+height: 1px;
+margin-bottom: 30px;
+ 
+}
+.edu{
+ border: 2px solid #131212;
+ height: 350px;
+ box-shadow: 0 0 20px 13px #00000096;
+ text-align: center;
+ color: #8c8b8b;
+ float: left;
+ overflow: hidden;
+ 
+ margin-top: 20px;
+}
+.edu h2{
+ margin-top: 20px;
+}
+.edu .Domain{
+ border: 2px solid #ffd589e6;
+ height: 150px;
+ border-radius: 50%;
+ text-align: center;
+ width: 150px;
+ margin: auto;
+ margin-top: 30px;
+ box-shadow: 0 0 17px 7px black;
+ overflow: hidden;
+ }
+
+
+
+
+
+
+@media (max-width :767px) {
+ .name {
+   margin-left: 95px;
+   text-align: center;
+    
+ }
+ 
+.About{
+   text-align: center;
+}
+    }
+
+
+
+
+@media (max-width :767px) {
+ .poto img{
+   margin-left: 120px;
+    width: 300px;
+   height: 300px;
+ }
+
+ .im{
+   margin-left: 120px;
+ }
+.skills h4{
+   text-align: center;
+}
+.ski{
+ text-align: center;
+}
+.ski .progress-bar{
+ margin-left: 125px;
+  
+}
+ .pervious{
+  margin-left: 25px;
+ }
+}
+    
+     
+}
+@media (min-width :768px) {
+
+}
+@media(min-width :992px){
+    
+   }
+
+@media(min-width :1100px){
+     
+   }
+}
+
+
+
